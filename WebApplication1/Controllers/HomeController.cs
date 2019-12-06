@@ -20,6 +20,7 @@ namespace WebApplication1.Controllers
 
         public IActionResult Index()
         {
+            Random random = new Random();
             return View();
         }
 
